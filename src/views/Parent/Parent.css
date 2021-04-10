@@ -49,3 +49,45 @@ p {
     margin-left: 10px;
     margin-right: 10px;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    footer {
+        display: block;
+    }
+    .social {
+        width: 30%;
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    article { height: 95%; }
+    section { height: 90%; }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .social{
+        width: 18%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .social {
+        width: 15%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .social {
+        width: 12%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .social { 
+        width: 8%; 
+    }
+}
